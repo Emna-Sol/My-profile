@@ -1,0 +1,86 @@
+body
+  { background : #F2F6FF;
+  font-family: 'Overpass', sans-serif;
+  color : #433C45;
+}
+
+h1 {font-family: 'EB Garamond', serif;
+    color : #BA274A;
+    font-size: 45px;}
+
+h2 { color : #2191FB ;
+     font-size: 30px;
+    }  
+
+a { color : #321C5A;
+    text-decoration: none; } 
+
+a:hover {
+  color: #A8D0DB;
+  text-decoration: none;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px){
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px){
+    .container {
+        width: 400px;
+    }
+}
+
+.box-white {
+    background-color: white;
+    margin: 20px 0px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#space p {
+    margin-bottom: 40px;
+}
+
+.btn-ghostwhite {
+    background-color: #F2F6FF;
+    color: grey;
+    padding: 12px 40px;
+    border-radius: 4px;
+}
+
+.btn-ghostwhite:hover {
+    background-color: #512D38;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 15px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: #512D38;
+}
